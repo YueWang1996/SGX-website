@@ -902,6 +902,25 @@ author: Yue Wang;
     margin-left: 20%;
 }
 
+@media screen and (max-width: 700px) {
+    .contact-us img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+  }
+
+
+@media screen and (max-width: 500px) {
+    .contact-us img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+  }
+
 .contact-info p,
 i,
 span {
@@ -1406,7 +1425,7 @@ table tr:nth-child(2n+1) {
 
 
 /*=================================================================
-	Twitter Feed
+  Twitter Feed
 ==================================================================*/
 
 #twitter-feed {
@@ -1439,7 +1458,7 @@ table tr:nth-child(2n+1) {
 
 
 /*=================================================================
-	Blog Page
+  Blog Page
 ==================================================================*/
 
 #blog-banner {
@@ -1699,7 +1718,7 @@ aside.widget {
 
 
 /*=================================================================
-	Single Blog Page
+  Single Blog Page
 ==================================================================*/
 
 .single-blog {
